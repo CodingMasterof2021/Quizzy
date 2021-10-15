@@ -1,0 +1,23 @@
+body {
+    color:whitesmoke;
+    background-color: rgb(0, 153, 255);
+}
+
+.login_div1{
+    color:rgb(94, 255, 0);
+    background-color: rgb(0, 153, 255);
+    padding: 10px;
+    float: none;
+}
+
+#loginbtn {
+    border-radius: 10px;
+}
+
+#newACC {
+    border-radius: 10px;
+}
+
+#createaccbtn {
+    border-radius: 10px;
+}

@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> Quizzy - Math Quiz Page</title>
+    </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="login.css">
+    <body onclick="loadQ()">
+        <h3 id="person1lbl"> Person 1:</h3>
+        <br>
+        <h3 id="person2lbl"> Person 2:</h3>
+        <center>
+            <h1> Quizzy</h1>
+            <h5 id="scorelbl"> Score = 0</h5>
+            <h3 id="questionlbl"> ---</h3>
+            <br>
+            <br>
+            <div id="answersection" class="col-lg-4 col-sm-8 col-xs-11 login_div1" style="visibility: hidden;">
+                <h5 id="qblb"></h5>
+                <br>
+                <label> Answer the question!</label>
+                <br>
+                <input id="answer" class="form-control" type="text" placeholder="ENTER AN ANSWER">
+                <br>
+                <button id="answerbtn" class="btn btn-success" style="border-radius: 20px;" onclick="submitA()"> Submit Answer</button>
+            </div>
+            <br>
+            <br>
+            <div class="col-lg-4 col-sm-8 col-xs-11 login_div1" id="heheboi">
+            <label id="qlbl">Your Question:</label>
+            <br>
+            <input id="question--g" class="form-control" type="text" placeholder="ENTER A QUESTION">
+            <br>
+            <input id="answer--g" class="form-control" type="text" placeholder="ENTER THE ANSWER">
+            <br>
+            <button id="qok" class="btn btn-success" style="border-radius: 20px;" onclick="submitQ()"> Submit Question</button>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <button id="quitbtn" class="btn-danger" onclick="quit()"> Quit Game</button>
+            <script src="quizpage.js"></script>
+        </center>
+    </body>
+</html>
