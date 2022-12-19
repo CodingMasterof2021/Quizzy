@@ -1,3 +1,3 @@
 function tryAgain() {
-    window.location="quizpage.html";
+    window.location="index.html";
 }
